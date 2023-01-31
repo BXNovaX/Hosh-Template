@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hosh</title>
+    <!--    BootStrap-->
+    <link rel="stylesheet" href="./assets/Bootstrap/css/bootstrap.min.css" />
+    <script src="/assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--    FontAwesome-->
+    <link rel="stylesheet" href="./assets/Font-awesome/css/all.min.css">
+    <script src="/assets/Font-awesome/js/all.min.js"></script>
+    <!--        OWL-->
+    <link rel="stylesheet" href="./assets/OWL/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OWL/dist/assets/owl.theme.default.min.css">
+    <script src="/assets/JQuery/jquery-3.6.3.min.js"></script>
+    <script src="/assets/OWL/dist/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                dots:false,
+                // autoWidth:true,
+                rtl:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+        });
+    </script>
+    <!--    Locals-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body dir="rtl">
+<nav id="navbar" class="z-1000 px-5 navbar navbar-expand-lg bg-white position-sticky top-0 container-fluid">
+    <div class="container-fluid">
+        <a class="logo navbar-brand fs-3" href="#">هش</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="navbar-text ms-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">حوزه های مطالعه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تیم</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            زبان
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">انگلیسی</a></li>
+                            <li><a class="dropdown-item active" href="#">فارسی</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">پشتیبانی</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ms-3"> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline ">👑سلام کنید!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<header class="row mx-auto container my-md-5">
+    <div class="s-header col-12 col-md-7 order-2 order-md-1 text-center text-md-start text-end">
+        <h2 class="mt-md-0 mt-5 text-center text-md-end">فضای دیجیتال که در آن راه حل ارائه می شود</h2>
+        <p class="fs-5text-center  text-md-end">آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+        <div class="text-center text-md-end">
+            <button class="btn">برآورد رایگان دریافت کنید<button style="background-color: var(--btnn); margin-right: -1%" class="btn"><i class="fas fa-arrow-left"></i></button></button>
+        </div>
+
+    </div>
+    <div class="z-1 e-header overflow-x-hidden justify-content-center d-flex order-1 order-md-2 col-12 col-md-5">
+        <div class="position-relative">
+            <img class="rounded-3" src="./assets/img/girl.webp" alt="Girl" width="525" height="425" >
+            <img class="position-absolute top-0 end-0" src="./assets/img/point.png" alt="Point" width="75" height="75">
+            <img class="position-absolute bottom-0 start-0" src="./assets/img/point.png" alt="Point" width="75" height="75">
+            <div class="sucsess p-2 rounded-2  position-absolute bottom-0 end-50 shadow bg-white">
+                <p class="percent text-center py-4 fs-5">۱۰۰٪</p>
+                <p>درصد موفقیت</p>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="help p-5 mt-5 container-fluid">
+    <div class="row">
+        <h3 class="col-md-3 fs-2 mx-auto text-center">برای رونق کسب و کار به شما کمک کند</h3>
+        <div class="w-100"></div>
+        <p class="col-md-3 mx-auto text-center">آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+    </div>
+    <div class="d-flex justify-content-evenly mt-5 row">
+        <div class="col-12 col-md-2 mb-5">
+            <div class="text-center icons">
+                <img src="./assets/img/designing.png" alt="Designing" width="200">
+            </div>
+            <h3 class="mt-4 me-3 text-center text-md-end">طراحی</h3>
+            <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+        </div>
+        <div class="col-12 col-md-2 mb-5">
+            <div class="text-center icons">
+                <img src="./assets/img/developing.png" alt="Developing" width="200">
+            </div>
+            <h3 class="mt-4 me-3 text-center text-md-end">گسترش دادن</h3>
+            <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+        </div>
+        <div class="col-12 col-md-2 mb-5 ">
+            <div class="text-center icons">
+                <img src="./assets/img/marketing.gif" alt="Marketing" width="200">
+            </div>
+            <h3 class="mt-4 me-3 text-center text-md-end">بازاریابی</h3>
+            <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+        </div>
+    </div>
+</section>
+<section class="my-5  position-relative">
+    <div class="owl-carousel owl-height owl-theme row text-center d-flex justify-content-center">
+        <div class="item col-10 col-md-6 mx-auto">
+            <img class="rounded-3 img-car" src="./assets/img/service1.webp" alt="Service">
+        </div>
+        <div class="item col-10 col-md-6 mx-auto">
+            <img class="rounded-3 img-car" src="./assets/img/service2.jpg" alt="Service">
+        </div>
+        <div class="item col-10 col-md-6 mx-auto">
+            <img class="rounded-3 img-car" src="./assets/img/service3.jpg" alt="Service">
+        </div>
+    </div>
+    <div class="bg-green position-absolute d-inline-block container-fluid bottom-0">
+    </div>
+</section>
+<section class="mt-5 p-5">
+
+    <div class="row d-flex justify-content-center">
+        <h3 class="col-12 col-md-3 text-center">مردم به آژانس هش فکر می کنند</h3>
+    </div>
+    <div class="owl-carousel mt-5">
+        <div class="row my-5 overflow-x-hidden">
+            <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                <p>آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد. شرکتی که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+                <div class="w-100"></div>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                <img class="rounded-5" src="./assets/img/girl2.jpg" alt="Girl" width="500" height="500">
+            </div>
+        </div>
+
+        <div class="row my-5 overflow-x-hidden">
+            <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                <p>آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد. شرکتی که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+                <div class="w-100"></div>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                <img class="rounded-5" src="./assets/img/girl3.jpeg" alt="Girl" width="500" height="500">
+            </div>
+        </div>
+        <div class="row my-5 overflow-x-hidden">
+            <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                <p>آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد. شرکتی که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+                <div class="w-100"></div>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                <img class="rounded-5" src="./assets/img/girl4.webp" alt="Girl" width="500" height="500">
+            </div>
+        </div>
+    </div>
+</section>
+<section style="color: white" class="p-5 free mx-auto position-relative">
+    <div class="row position-absolute free-div w-100">
+        <div class="col-md-7">
+            <h3 class="fs-2">در مورد نیازهای خود برای ما بنویسید</h3>
+        </div>
+        <div class="col-md-5">
+            <button style="background-color: var(--primary); color: white" class="btn px-3 py-2 float-end">بنویسید  <i class="fas fa-arrow-left me-5"></i></button>
+        </div>
+    </div>
+</section>
+<footer class="px-5 pt-5 pb-1">
+    <div class="row d-flex mt-5">
+        <div class="col-12 col-md-3">
+            <h3>درباره ما</h3>
+            <p>آژانس دیجیتال شرکتی است که راه حل های خلاقانه و مبتنی بر فناوری را به مشتریان خود ارائه می دهد.</p>
+            <a class="text-decoration-none fs-1" href="#">هش</a>
+        </div>
+        <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+            <h3>لینک های مهم</h3>
+            <a class="text-decoration-none" href="#">درباره ما</a>
+            <a class="text-decoration-none" href="#">سرویس ها</a>
+            <a class="text-decoration-none" href="#">شرکا</a>
+            <a class="text-decoration-none" href="#">حوزه های مطالعه</a>
+            <a class="text-decoration-none" href="#">خلاقیت</a>
+        </div>
+        <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+            <h3>خدمات ویژه</h3>
+            <a class="text-decoration-none" href="#">خدمه-خدمات اطلاعاتی</a>
+            <a class="text-decoration-none" href="#">لورم ایپسوم</a>
+            <a class="text-decoration-none" href="#">لورم ایپسوم</a>
+            <a class="text-decoration-none" href="#">لورم ایپسوم</a>
+        </div>
+        <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+            <h3>ارتباط باما</h3>
+            <p>آدرس دفتر:</p>
+            <address>آلمان. برلین. خیابان ۲۹ ام</address>
+            <p>تلفن:  <a class="text-decoration-none" href="tel:989120000000">+989120000000</a></p>
+            <p>نامه الکترونیک: <a class="text-decoration-none" href="mailto:test@test.com">test@test.com</a></p>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center">©کپی رایت 2023. ساخته شده با 🤍 در ایران.</p>
+</footer>
+</body>
+</html>
+

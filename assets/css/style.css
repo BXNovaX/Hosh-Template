@@ -1,0 +1,103 @@
+:root {
+    --primary: #137566;
+    --secondry: #218b7a;
+    --grey: #808080;
+    --btnn: #137466;
+    --help: #f6faf9;
+    --light: #5ba79b;
+    --dark: #001c17;
+}
+@font-face {
+    font-family: vazir;
+    src: url('/assets/font/Vazirmatn-Regular.ttf');
+}
+#navbar{
+    z-index: 99999;
+}
+body {
+    font-family: vazir, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    object-fit: cover;
+}
+footer {
+    background-color: var(--dark);
+    color: white;
+}
+.logo {
+    color: var(--primary);
+}
+.s-header button {
+    background-color: var(--secondry);
+    color: white;
+}
+.s-header h2 {
+    font-size: 85px;
+}
+.s-header p {
+    color: var(--grey);
+}
+.percent {
+    border: var(--secondry) 5px solid;
+    border-radius: 100000px;
+}
+.help {
+    background-color: var(--help);
+}
+.help p {
+    color: var(--grey);
+}
+.icons {
+    background-color: white;
+    border-radius: 500px;
+}
+.bg-green {
+    /*position: absolute;*/
+    background-color: var(--light);
+    /*display: inline-block;*/
+    width: 100%;
+    /*bottom: -3%;*/
+    height: 289px;
+}
+/*.img-car {*/
+/*    width: 450px;*/
+/*    height: 450px;*/
+/*}*/
+.owl-nav span {
+    padding: 10px 50px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.owl-nav span:hover {
+    padding: 10px 50px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.owl-nav {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+}
+.links a {
+    color: #b9b9b9;
+}
+.free {
+    background-color: var(--secondry);
+    border-radius: 20px;
+    width: 75%;
+    height: 155px;
+    top: 57px;
+}
+.free-div {
+    height: 5px;
+}

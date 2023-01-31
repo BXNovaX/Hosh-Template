@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Hosh</title>
+    <!--    BootStrap-->
+        <link rel="stylesheet" href="./assets/Bootstrap/css/bootstrap.min.css" />
+        <script src="/assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--    FontAwesome-->
+        <link rel="stylesheet" href="./assets/Font-awesome/css/all.min.css">
+        <script src="/assets/Font-awesome/js/all.min.js"></script>
+<!--        OWL-->
+        <link rel="stylesheet" href="./assets/OWL/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/OWL/dist/assets/owl.theme.default.min.css">
+        <script src="/assets/JQuery/jquery-3.6.3.min.js"></script>
+        <script src="/assets/OWL/dist/owl.carousel.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    dots:false,
+                    // autoWidth:true,
+                    // rtl:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:1
+                        },
+                        1000:{
+                            items:1
+                        }
+                    }
+                })
+            });
+        </script>
+    <!--    Locals-->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body dir="ltr">
+        <nav id="navbar" class="z-1000 px-5 navbar navbar-expand-lg bg-white position-sticky top-0 container-fluid">
+        <div class="container-fluid">
+            <a class="logo navbar-brand fs-3" href="#">Hosh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="navbar-text ms-auto">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item active" href="#">EN</a></li>
+                                <li><a class="dropdown-item" href="./index-fa.html">FA</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ms-3"> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-underline ">👑Say Hi!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <header class="row mx-auto container my-md-5">
+            <div class="s-header col-12 col-md-7 order-2 order-md-1 text-center text-md-start">
+                <h2 class="mt-md-0 mt-5">Digital space where solution comes up</h2>
+                <p class="fs-5">A digital agency is a company that delivers creative and technology based solutions to their clients.</p>
+                <button class="btn">Get free estimate <button style="background-color: var(--btnn); margin-left: -1%" class="btn"><i class="fas fa-arrow-right"></i></button></button>
+            </div>
+            <div class="z-1 e-header overflow-x-hidden justify-content-center d-flex order-1 order-md-2 col-12 col-md-5">
+                <div class="position-relative">
+                    <img class="rounded-3" src="./assets/img/girl.webp" alt="Girl" width="525" height="425" >
+                    <img class="position-absolute top-0 end-0" src="./assets/img/point.png" alt="Point" width="75" height="75">
+                    <img class="position-absolute bottom-0 start-0" src="./assets/img/point.png" alt="Point" width="75" height="75">
+                    <div class="sucsess p-2 rounded-2  position-absolute bottom-0 end-50 shadow bg-white">
+                        <p class="percent text-center py-4">100%</p>
+                        <p>Success rate</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="help p-5 mt-5 container-fluid">
+            <div class="row">
+                <h3 class="col-md-3 fs-2 mx-auto text-center">Help you for boost your business</h3>
+                <div class="w-100"></div>
+                <p class="col-md-3 mx-auto text-center">A digital agency is a company that delivers creative and technology based solutions to their clients.</p>
+            </div>
+            <div class="d-flex justify-content-evenly mt-5 row">
+                <div class="col-12 col-md-2 mb-5">
+                    <div class="text-center icons">
+                        <img src="./assets/img/designing.png" alt="Designing" width="200">
+                    </div>
+                    <h3 class="mt-4 ms-2 text-center text-md-start">Designing</h3>
+                    <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+                <div class="col-12 col-md-2 mb-5">
+                    <div class="text-center icons">
+                        <img src="./assets/img/developing.png" alt="Developing" width="200">
+                    </div>
+                    <h3 class="mt-4 ms-2 text-center text-md-start">Developing</h3>
+                    <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+                <div class="col-12 col-md-2 mb-5 ">
+                    <div class="text-center icons">
+                        <img src="./assets/img/marketing.gif" alt="Marketing" width="200">
+                    </div>
+                    <h3 class="mt-4 ms-2 text-center text-md-start">Marketing</h3>
+                    <p class="mt-4 ms-2 text-center text-md-start" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+            </div>
+        </section>
+        <section class="my-5  position-relative">
+            <div class="owl-carousel owl-height owl-theme row text-center d-flex justify-content-center">
+                <div class="item col-10 col-md-6 mx-auto">
+                    <img class="rounded-3 img-car" src="./assets/img/service1.webp" alt="Service">
+                </div>
+                <div class="item col-10 col-md-6 mx-auto">
+                    <img class="rounded-3 img-car" src="./assets/img/service2.jpg" alt="Service">
+                </div>
+                <div class="item col-10 col-md-6 mx-auto">
+                    <img class="rounded-3 img-car" src="./assets/img/service3.jpg" alt="Service">
+                </div>
+            </div>
+            <div class="bg-green position-absolute d-inline-block container-fluid bottom-0">
+            </div>
+        </section>
+        <section class="mt-5 p-5">
+
+            <div class="row d-flex justify-content-center">
+                <h3 class="col-12 col-md-3 text-center">People think about Hosh agency</h3>
+            </div>
+            <div class="owl-carousel mt-5">
+                <div class="row my-5 overflow-x-hidden">
+                    <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                        <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                        <p>A digital agency is a company that delivers creative and technology based solutions to their clients. A company that delivers creative and technology based solutions to their clients.</p>
+                        <div class="w-100"></div>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                        <img class="rounded-5" src="./assets/img/girl2.jpg" alt="Girl" width="500" height="500">
+                    </div>
+                </div>
+
+                <div class="row my-5 overflow-x-hidden">
+                    <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                        <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                        <p>A digital agency is a company that delivers creative and technology based solutions to their clients. A company that delivers creative and technology based solutions to their clients.</p>
+                        <div class="w-100"></div>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                        <img class="rounded-5" src="./assets/img/girl3.jpeg" alt="Girl" width="500" height="500">
+                    </div>
+                </div>
+                <div class="row my-5 overflow-x-hidden">
+                    <div class="s-card col-12 col-md-6 p-5 fs-4 flex-column d-flex order-2 order-md-1">
+                        <i class="fa fa-quote-right mb-5" aria-hidden="true" style="color: var(--primary)"></i>
+                        <p>A digital agency is a company that delivers creative and technology based solutions to their clients. A company that delivers creative and technology based solutions to their clients.</p>
+                        <div class="w-100"></div>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="e-card col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                        <img class="rounded-5" src="./assets/img/girl4.webp" alt="Girl" width="500" height="500">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="color: white" class="p-5 free mx-auto position-relative">
+            <div class="row position-absolute free-div">
+                <div class="col-md-7">
+                    <h3 class="fs-2">Feel free to write us, About your needs</h3>
+                </div>
+                <div class="col-md-5">
+                    <button style="background-color: var(--primary); color: white" class="btn px-3 py-2 float-end">Write us <i class="fas fa-arrow-right ms-5"></i></button>
+                </div>
+            </div>
+        </section>
+        <footer class="px-5 pt-5 pb-1">
+            <div class="row d-flex mt-5">
+                <div class="col-12 col-md-3">
+                    <h3>About us</h3>
+                    <p>A digital agency is a company that delivers creative and technology based solutions to their clients.</p>
+                    <a class="text-decoration-none fs-1" href="#">Hosh</a>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+                    <h3>Important Links</h3>
+                    <a class="text-decoration-none" href="#">About Us</a>
+                    <a class="text-decoration-none" href="#">Services</a>
+                    <a class="text-decoration-none" href="#">Partners</a>
+                    <a class="text-decoration-none" href="#">Case of study</a>
+                    <a class="text-decoration-none" href="#">Creativity</a>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+                    <h3>Featured services</h3>
+                    <a class="text-decoration-none" href="#">Intelligence crew-service</a>
+                    <a class="text-decoration-none" href="#">Lorem ipsum</a>
+                    <a class="text-decoration-none" href="#">Lorem ipsum</a>
+                    <a class="text-decoration-none" href="#">Lorem ipsum</a>
+                </div>
+                <div class="col-12 col-md-3 d-flex flex-column links mt-5 mt-md-0">
+                    <h3>Contact Us</h3>
+                    <p>Office address:</p>
+                    <address>Germany, Berlin, 29th Street</address>
+                    <p>Phone: <a class="text-decoration-none" href="tel:989120000000">+989120000000</a></p>
+                    <p>E-mail: <a class="text-decoration-none" href="mailto:test@test.com">test@test.com</a></p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">©Copyright 2023. Made with 🤍 In Iran.</p>
+        </footer>
+    </body>
+</html>
+

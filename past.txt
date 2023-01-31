@@ -1,0 +1,66 @@
+
+<body>
+    <nav class="z-99 row p-3 text-center sticky-top bg-white align-items-center">
+        <h2 class="col-5 me-auto text-start ms-5" style="color: var(--primary)">Hosh</h2>
+        <a href="#" class="col-1 text-muted text-decoration-none">about</a>
+        <a href="#" class="col-1 text-muted text-decoration-none">Case Slides</a>
+        <a href="#" class="col-1 text-muted text-decoration-none">Team</a>
+        <a href="#" class="col-1 text-muted text-decoration-none">Career</a>
+        <a href="#" class="col-2 text-muted">👑Say Hi!</a>
+    </nav>
+    <div class="w-100 p-4"></div>
+    <header class="container">
+        <div class="row">
+            <div class="col-7">
+                <h1 style="font-size: 85px">Digital space where solutions comes up</h1>
+                <p class="fs-5 mt-4"
+                   style="color: rgba(89,89,89,0.84)">
+                    A digital agency is a company that delivers creative and
+                    technology based solutions to their clients.</p>
+                <button class="btn p-3" style="background-color: var(--secondry); color: white">
+                    Get free estimate
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="col-5 mt-4 position-relative">
+                <img class="z-3 position-absolute rounded-3" src="./assets/img/girl.webp" alt="Girl"
+                     width="500" height="500">
+                <img class="z-2 position-absolute top-0 end-0" src="./assets/img/point.png" alt="Point" width="100">
+                <img class="z-1 position-absolute top-100 start-0" src="./assets/img/point.png" alt="Point" width="100">
+            </div>
+        </div>
+    </header>
+    <section class="row">
+        <div class="mt-5" style="visibility: hidden"> a</div>
+        <div class="mt-5 p-5" style="background-color: #f6faf9;">
+            <h3 class="text-center w-auto ">Help you to boost your business</h3>
+            <p class="text-center">A digital agency is a company that delivers creative and
+                technology based solutions to their clients.</p>
+            <div class="d-flex justify-content-evenly mt-5">
+                <div class="col-2">
+                    <div class="text-center" style="background-color: white; border-radius: 500px">
+                        <img src="./assets/img/designing.png" alt="Designing" width="200">
+                    </div>
+                    <p class="mt-4 ms-2" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+                <div class="col-2">
+                    <div class="text-center" style="background-color: white; border-radius: 500px">
+                        <img src="./assets/img/developing.png" alt="Developing" width="200">
+                    </div>
+                    <p class="mt-4 ms-2" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+                <div class="col-2">
+                    <div class="text-center" style="background-color: white; border-radius: 500px;">
+                        <img src="./assets/img/marketing.gif" alt="Marketing" width="200">
+                    </div>
+                    <p class="mt-4 ms-2" style="color: rgba(89,89,89,0.84)">A digital agency is a company that delivers creative and
+                        technology based solutions to their clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
